@@ -25,5 +25,5 @@ commd: npm install -g nodemon
 
 ## commands to Run Application 
 
-commd : npm start --> to run the application
+commd : npm start --> to run the application.
 
