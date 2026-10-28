@@ -1,8 +1,10 @@
 import express from "express";
 import dbConnect from "../config/db.js";
 import mongoose from "mongoose";
+import cors from "cors";
 
 const APP = express();
+APP.use(cors());
 
 // Middleware to parse JSON
 APP.use(express.json());
